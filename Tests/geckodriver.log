@@ -1,0 +1,595 @@
+1589237553736	geckodriver	INFO	geckodriver 0.21.0
+1589237553744	geckodriver	INFO	Listening on 127.0.0.1:58397
+1589237554757	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vq/p6h8wgbx1kl6g19d3nf64l2r0000gn/T/rust_mozprofile.wFmd2o7VtNUC"
+1589237555256	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589237555517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589237555517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589237555517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589237555517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589237555652	Marionette	TRACE	Marionette enabled
+1589237555752	Marionette	TRACE	Received observer notification toplevel-window-ready
+1589237557560	Marionette	TRACE	Received observer notification marionette-startup-requested
+1589237557561	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1589237557573	Marionette	TRACE	All scripts recorded.
+1589237557573	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1589237557574	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1589237557574	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1589237557574	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1589237557574	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1589237557575	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1589237557575	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1589237557575	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1589237557576	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1589237557576	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1589237557576	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1589237557576	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1589237557576	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1589237557576	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1589237557577	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1589237557577	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1589237557577	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1589237557577	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1589237557577	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1589237557578	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1589237557578	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1589237557578	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1589237557578	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1589237557579	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1589237557579	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1589237557579	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1589237557579	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1589237557579	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1589237557579	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1589237557579	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1589237557580	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1589237557581	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1589237557619	Marionette	INFO	Listening on port 58404
+1589237557619	Marionette	DEBUG	Marionette is listening
+1589237557641	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58452
+1589237557643	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1589237557643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589237557666	Marionette	TRACE	[16] Frame script loaded
+1589237557667	Marionette	TRACE	[16] Frame script registered
+1589237557674	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"a0daf387-cc43-9648-b980-e4e541e8608b","capabilities":{"browserName":"firefox","browserVersion":"76.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1589237557689	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://igavesti-ou.myshopify.com/"}]
+1589237557699	Marionette	TRACE	[16] Received DOM event beforeunload for about:blank
+1589237558987	Marionette	TRACE	[16] Received DOM event pagehide for about:blank
+1589237559491	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/
+1589237559560	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/
+1589237559562	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1589237559568	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589237559575	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f8f62aeb-f20a-8246-9fac-4fb3ee67f8c7"}}]
+1589237559583	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"f8f62aeb-f20a-8246-9fac-4fb3ee67f8c7"}]
+1589237559634	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/
+1589237560078	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/
+1589237560079	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/
+1589237560241	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account/login
+1589237560256	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account/login
+1589237560256	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1589237560262	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerEmail\"]"}]
+1589237560265	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2ffec615-2784-8f4d-a9b7-3311cea76cc1"}}]
+1589237560275	Marionette	DEBUG	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"2ffec615-2784-8f4d-a9b7-3311cea76cc1","text":"azadtestlio@gmail.com","value":["a","z","a","d","t","e","s","t","l","i","o","@","g","m","a","i","l",".","c","o","m"]}]
+1589237560322	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1589237560332	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerPassword\"]"}]
+1589237560335	Marionette	DEBUG	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"56e65d67-2547-344a-8d1d-c5dd16516ad9"}}]
+1589237560339	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"56e65d67-2547-344a-8d1d-c5dd16516ad9","text":"Tester1234","value":["T","e","s","t","e","r","1","2","3","4"]}]
+1589237560372	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1589237560375	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"//form[@id='customer_login']//input[@class='btn']"}]
+1589237560381	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"138da7a5-7008-0348-a187-b5e65115cd3d"}}]
+1589237560384	Marionette	DEBUG	0 -> [0,10,"WebDriver:ElementClick",{"id":"138da7a5-7008-0348-a187-b5e65115cd3d"}]
+1589237560399	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/account/login
+1589237561057	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/account/login
+1589237561058	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/account/login
+1589237561185	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/challenge
+1589237561196	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237562171	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/challenge
+1589237562171	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1589237562174	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":".section-header__title"}]
+1589237562199	Marionette	DEBUG	0 <- [1,11,{"error":"no such element","message":"Unable to locate element: .section-header__title","stacktrace":"WebDriverError@ch ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1589237562208	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589237562241	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fdc5035b-8db7-8847-a004-ad715efa0e06"}}]
+1589237562244	Marionette	DEBUG	0 -> [0,13,"WebDriver:ElementClick",{"id":"fdc5035b-8db7-8847-a004-ad715efa0e06"}]
+1589237562289	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/challenge
+1589237562450	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237562454	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237562770	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/challenge
+1589237562771	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/challenge
+1589237562880	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account/login
+1589237562900	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account/login
+1589237562901	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1589237562907	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerEmail\"]"}]
+1589237562913	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0d67f8aa-09f0-b148-82ac-670bb7d5a7dc"}}]
+1589237562917	Marionette	DEBUG	0 -> [0,15,"WebDriver:ElementSendKeys",{"id":"0d67f8aa-09f0-b148-82ac-670bb7d5a7dc","text":"azadtestlio@gmail.com","value":["a","z","a","d","t","e","s","t","l","i","o","@","g","m","a","i","l",".","c","o","m"]}]
+1589237562938	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1589237562941	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerPassword\"]"}]
+1589237562947	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"405f5134-4ecb-d045-aa7d-6d33f286c850"}}]
+1589237562952	Marionette	DEBUG	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"405f5134-4ecb-d045-aa7d-6d33f286c850","text":"Tester12345","value":["T","e","s","t","e","r","1","2","3","4","5"]}]
+1589237562975	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1589237562978	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElement",{"using":"xpath","value":"//form[@id='customer_login']//input[@class='btn']"}]
+1589237562983	Marionette	DEBUG	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e0a63499-0bfb-134b-ae23-4b0a4865bd73"}}]
+1589237562986	Marionette	DEBUG	0 -> [0,19,"WebDriver:ElementClick",{"id":"e0a63499-0bfb-134b-ae23-4b0a4865bd73"}]
+1589237562995	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/account/login
+1589237563793	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/account/login
+1589237563794	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/account/login
+1589237563859	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237563868	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/challenge
+1589237564110	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/challenge
+1589237564111	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1589237564115	Marionette	DEBUG	0 -> [0,20,"WebDriver:GetPageSource",{}]
+1589237564135	Marionette	DEBUG	0 <- [1,20,null,{"value":"<html class=\"supports-js supports-js supports-no-touch supports-csstransforms supports-csstransforms3d  ...  rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div></div></body></html>"}]
+1589237564143	Marionette	DEBUG	0 -> [0,21,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589237564143	Marionette	INFO	Stopped listening on port 58404
+1589237564522	Marionette	TRACE	Received observer notification quit-application
+1589237564525	Marionette	DEBUG	0 <- [1,21,null,{"cause":"shutdown"}]
+1589237564575	Marionette	DEBUG	0 -> [0,22,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589237564575	Marionette	DEBUG	0 <- [1,22,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1589237564576	Marionette	DEBUG	Closed connection 0
+1589237566727	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1589237566727	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1589237566727	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1589237566727	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1589237566727	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1589237566727	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1589237566727	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1589237566728	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1589237566728	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1589237566728	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1589237566728	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1589237566728	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1589237566728	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1589237566728	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1589237566728	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1589237566728	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1589237566728	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1589237566729	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1589237566729	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1589237566729	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1589237566729	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1589237566729	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1589237566729	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1589237566729	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1589237566729	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1589237566729	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1589237566729	Marionette	DEBUG	Marionette stopped listening
+1589237710728	geckodriver	INFO	geckodriver 0.21.0
+1589237710737	geckodriver	INFO	Listening on 127.0.0.1:58545
+1589237711755	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vq/p6h8wgbx1kl6g19d3nf64l2r0000gn/T/rust_mozprofile.TgnNmWQCHQgM"
+1589237712247	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589237712524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589237712524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589237712524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589237712524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589237712634	Marionette	TRACE	Marionette enabled
+1589237712730	Marionette	TRACE	Received observer notification toplevel-window-ready
+1589237714388	Marionette	TRACE	Received observer notification marionette-startup-requested
+1589237714388	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1589237714399	Marionette	TRACE	All scripts recorded.
+1589237714399	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1589237714399	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1589237714400	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1589237714400	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1589237714400	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1589237714400	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1589237714401	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1589237714402	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1589237714402	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1589237714402	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1589237714402	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1589237714403	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1589237714403	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1589237714403	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1589237714403	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1589237714403	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1589237714404	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1589237714404	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1589237714404	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1589237714404	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1589237714404	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1589237714404	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1589237714404	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1589237714405	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1589237714406	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1589237714445	Marionette	INFO	Listening on port 58553
+1589237714445	Marionette	DEBUG	Marionette is listening
+1589237714513	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58603
+1589237714517	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1589237714518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589237714539	Marionette	TRACE	[16] Frame script loaded
+1589237714541	Marionette	TRACE	[16] Frame script registered
+1589237714547	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"982e8c24-bcca-ae4a-ade9-9ccde5da114d","capabilities":{"browserName":"firefox","browserVersion":"76.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1589237714557	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://igavesti-ou.myshopify.com/"}]
+1589237714564	Marionette	TRACE	[16] Received DOM event beforeunload for about:blank
+1589237714972	Marionette	TRACE	[16] Received DOM event pagehide for about:blank
+1589237715424	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/
+1589237715548	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/
+1589237715550	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1589237715555	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589237715562	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"52305752-abff-6f48-91c4-d9de59f78b02"}}]
+1589237715567	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"52305752-abff-6f48-91c4-d9de59f78b02"}]
+1589237715617	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/
+1589237716161	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/
+1589237716162	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/
+1589237716392	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account/login
+1589237716406	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account/login
+1589237716407	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1589237716411	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerEmail\"]"}]
+1589237716416	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7fd791ba-dab0-784f-9ece-f86d128faf5d"}}]
+1589237716420	Marionette	DEBUG	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"7fd791ba-dab0-784f-9ece-f86d128faf5d","text":"azadtestlio@gmail.com","value":["a","z","a","d","t","e","s","t","l","i","o","@","g","m","a","i","l",".","c","o","m"]}]
+1589237716446	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1589237716449	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerPassword\"]"}]
+1589237716451	Marionette	DEBUG	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"99e2c72c-8531-ea4b-a30f-39179943bdc0"}}]
+1589237716454	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"99e2c72c-8531-ea4b-a30f-39179943bdc0","text":"Tester1234","value":["T","e","s","t","e","r","1","2","3","4"]}]
+1589237716482	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1589237716484	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"//form[@id='customer_login']//input[@class='btn']"}]
+1589237716496	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"43cedaaf-179e-0842-bc96-c5dfd3bcd22e"}}]
+1589237716498	Marionette	DEBUG	0 -> [0,10,"WebDriver:ElementClick",{"id":"43cedaaf-179e-0842-bc96-c5dfd3bcd22e"}]
+1589237716510	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/account/login
+1589237717295	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/account/login
+1589237717296	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/account/login
+1589237717428	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/challenge
+1589237717438	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237718436	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/challenge
+1589237718437	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1589237718439	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":".section-header__title"}]
+1589237718457	Marionette	DEBUG	0 <- [1,11,{"error":"no such element","message":"Unable to locate element: .section-header__title","stacktrace":"WebDriverError@ch ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1589237718464	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589237718481	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"df0bd476-babc-8443-b059-1e4b59e545eb"}}]
+1589237718484	Marionette	DEBUG	0 -> [0,13,"WebDriver:ElementClick",{"id":"df0bd476-babc-8443-b059-1e4b59e545eb"}]
+1589237718524	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/challenge
+1589237718586	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237718594	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719135	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/challenge
+1589237719135	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/challenge
+1589237719236	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account/login
+1589237719257	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719257	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719257	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719257	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719258	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719258	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719258	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237719271	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account/login
+1589237719271	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1589237719277	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerEmail\"]"}]
+1589237719285	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d140a517-95cc-094d-9d88-3d921fb85766"}}]
+1589237719297	Marionette	DEBUG	0 -> [0,15,"WebDriver:ElementSendKeys",{"id":"d140a517-95cc-094d-9d88-3d921fb85766","text":"azadtestlio@gmail.com","value":["a","z","a","d","t","e","s","t","l","i","o","@","g","m","a","i","l",".","c","o","m"]}]
+1589237719320	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1589237719323	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerPassword\"]"}]
+1589237719324	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a4d6b9ec-9ff8-3f41-832f-18ef658e02c3"}}]
+1589237719327	Marionette	DEBUG	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"a4d6b9ec-9ff8-3f41-832f-18ef658e02c3","text":"Tester1234","value":["T","e","s","t","e","r","1","2","3","4"]}]
+1589237719352	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1589237719355	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElement",{"using":"xpath","value":"//form[@id='customer_login']//input[@class='btn']"}]
+1589237719357	Marionette	DEBUG	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fb9258e8-bcdf-2047-b8d9-aed9c1399086"}}]
+1589237719360	Marionette	DEBUG	0 -> [0,19,"WebDriver:ElementClick",{"id":"fb9258e8-bcdf-2047-b8d9-aed9c1399086"}]
+1589237719372	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/account/login
+1589237720159	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/account/login
+1589237720160	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/account/login
+1589237720218	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589237720251	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/challenge
+1589237720504	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/challenge
+1589237720504	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1589237720511	Marionette	DEBUG	0 -> [0,20,"WebDriver:GetPageSource",{}]
+1589237720531	Marionette	DEBUG	0 <- [1,20,null,{"value":"<html class=\"supports-js supports-js supports-no-touch supports-csstransforms supports-csstransforms3d  ...  rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;\"></textarea></div></div></body></html>"}]
+1589237720537	Marionette	DEBUG	0 -> [0,21,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589237720537	Marionette	INFO	Stopped listening on port 58553
+1589237720914	Marionette	TRACE	Received observer notification quit-application
+1589237720916	Marionette	DEBUG	0 <- [1,21,null,{"cause":"shutdown"}]
+1589237720966	Marionette	DEBUG	0 -> [0,22,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589237720967	Marionette	DEBUG	0 <- [1,22,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1589237720968	Marionette	DEBUG	Closed connection 0
+1589237723092	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1589237723092	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1589237723092	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1589237723092	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1589237723092	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1589237723093	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1589237723093	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1589237723093	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1589237723093	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1589237723093	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1589237723094	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1589237723094	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1589237723094	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1589237723094	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1589237723094	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1589237723094	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1589237723094	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1589237723094	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1589237723094	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1589237723094	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1589237723094	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1589237723094	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1589237723094	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1589237723095	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1589237723095	Marionette	DEBUG	Marionette stopped listening
+1589576486364	geckodriver	INFO	geckodriver 0.21.0
+1589576486372	geckodriver	INFO	Listening on 127.0.0.1:56150
+1589576487385	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vq/p6h8wgbx1kl6g19d3nf64l2r0000gn/T/rust_mozprofile.Cdm1U0x3SBIm"
+1589576488084	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589576488355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589576488355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589576488355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589576488355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589576488474	Marionette	TRACE	Marionette enabled
+1589576488529	Marionette	TRACE	Received observer notification toplevel-window-ready
+1589576490286	Marionette	TRACE	Received observer notification marionette-startup-requested
+1589576490286	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1589576490308	Marionette	TRACE	All scripts recorded.
+1589576490308	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1589576490308	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1589576490309	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1589576490309	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1589576490309	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1589576490309	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1589576490309	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1589576490310	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1589576490310	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1589576490310	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1589576490310	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1589576490310	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1589576490310	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1589576490310	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1589576490311	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1589576490311	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1589576490311	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1589576490311	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1589576490311	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1589576490311	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1589576490312	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1589576490312	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1589576490312	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1589576490312	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1589576490312	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1589576490312	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1589576490312	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1589576490313	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1589576490313	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1589576490313	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1589576490313	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1589576490314	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1589576490350	Marionette	INFO	Listening on port 56163
+1589576490350	Marionette	DEBUG	Marionette is listening
+1589576490356	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56220
+1589576490365	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1589576490365	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589576490386	Marionette	TRACE	[16] Frame script loaded
+1589576490387	Marionette	TRACE	[16] Frame script registered
+1589576490393	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"94f6b03f-8fae-d141-b9d0-afdc34a7254a","capabilities":{"browserName":"firefox","browserVersion":"76.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1589576490403	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://igavesti-ou.myshopify.com/"}]
+1589576490410	Marionette	TRACE	[16] Received DOM event beforeunload for about:blank
+1589576491600	Marionette	TRACE	[16] Received DOM event pagehide for about:blank
+1589576492118	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/
+1589576492188	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/
+1589576492191	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1589576492196	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589576492228	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"62b1ab7b-c5a4-0842-a36a-445600cfc788"}}]
+1589576492234	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"62b1ab7b-c5a4-0842-a36a-445600cfc788"}]
+1589576492273	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/
+1589576492887	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/
+1589576492888	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/
+1589576493010	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account/login
+1589576493021	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account/login
+1589576493021	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1589576493028	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerEmail\"]"}]
+1589576493051	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7a25e31a-7c08-de47-ba53-ec61c9367b99"}}]
+1589576493054	Marionette	DEBUG	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"7a25e31a-7c08-de47-ba53-ec61c9367b99","text":"azadtestlio@gmail.com","value":["a","z","a","d","t","e","s","t","l","i","o","@","g","m","a","i","l",".","c","o","m"]}]
+1589576493081	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1589576493083	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerPassword\"]"}]
+1589576493090	Marionette	DEBUG	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3f105398-bb62-4e48-be41-e2fd339fe84e"}}]
+1589576493093	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"3f105398-bb62-4e48-be41-e2fd339fe84e","text":"Tester1234","value":["T","e","s","t","e","r","1","2","3","4"]}]
+1589576493104	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1589576493106	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"//form[@id='customer_login']//input[@class='btn']"}]
+1589576493109	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"853fc4bb-a0be-4045-963a-0535810277b4"}}]
+1589576493112	Marionette	DEBUG	0 -> [0,10,"WebDriver:ElementClick",{"id":"853fc4bb-a0be-4045-963a-0535810277b4"}]
+1589576493126	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/account/login
+1589576494129	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/account/login
+1589576494131	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/account/login
+1589576494227	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account
+1589576494237	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account
+1589576494238	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1589576494242	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":".section-header__title"}]
+1589576494251	Marionette	DEBUG	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2fcdc112-014a-1d4d-bf1c-ab100b70ff49"}}]
+1589576494254	Marionette	DEBUG	0 -> [0,12,"WebDriver:GetElementText",{"id":"2fcdc112-014a-1d4d-bf1c-ab100b70ff49"}]
+1589576494273	Marionette	DEBUG	0 <- [1,12,null,{"value":"My Account"}]
+1589576494276	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589576494278	Marionette	DEBUG	0 <- [1,13,{"error":"no such element","message":"Unable to locate element: [id=\"customer_login_link\"]","stacktrace":"WebDriverEr ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1589576494284	Marionette	DEBUG	0 -> [0,14,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589576494284	Marionette	INFO	Stopped listening on port 56163
+1589576494624	Marionette	TRACE	Received observer notification quit-application
+1589576494626	Marionette	DEBUG	0 <- [1,14,null,{"cause":"shutdown"}]
+1589576494650	Marionette	DEBUG	0 -> [0,15,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589576494650	Marionette	DEBUG	0 <- [1,15,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1589576494654	Marionette	DEBUG	Closed connection 0
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1589576495785	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1589576495785	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1589576495786	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1589576495786	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1589576495787	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1589576495787	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1589576495787	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1589576495787	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1589576495787	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1589576495787	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1589576495787	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1589576495787	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1589576495787	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1589576495787	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1589576495787	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1589576495788	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1589576495788	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1589576495788	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1589576495788	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1589576495788	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1589576495788	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1589576495788	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1589576495789	Marionette	DEBUG	Marionette stopped listening
+1589576543359	geckodriver	INFO	geckodriver 0.21.0
+1589576543364	geckodriver	INFO	Listening on 127.0.0.1:56379
+1589576544380	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vq/p6h8wgbx1kl6g19d3nf64l2r0000gn/T/rust_mozprofile.SOF41Zh1HeRo"
+1589576544901	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589576545150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589576545150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589576545150	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589576545151	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589576545263	Marionette	TRACE	Marionette enabled
+1589576545363	Marionette	TRACE	Received observer notification toplevel-window-ready
+1589576546981	Marionette	TRACE	Received observer notification marionette-startup-requested
+1589576546981	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1589576546991	Marionette	TRACE	All scripts recorded.
+1589576546991	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1589576546992	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1589576546992	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1589576546992	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1589576546992	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1589576546992	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1589576546993	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1589576546994	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1589576546994	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1589576546994	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1589576546994	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1589576546994	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1589576546994	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1589576546995	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1589576546995	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1589576546995	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1589576546995	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1589576546995	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1589576546995	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1589576546995	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1589576546995	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1589576546996	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1589576546996	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1589576546996	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1589576546997	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1589576547032	Marionette	INFO	Listening on port 56396
+1589576547032	Marionette	DEBUG	Marionette is listening
+1589576547058	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56445
+1589576547060	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1589576547061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1589576547079	Marionette	TRACE	[16] Frame script loaded
+1589576547080	Marionette	TRACE	[16] Frame script registered
+1589576547086	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"0c953c43-f9c9-fc44-b72d-85de6bb92470","capabilities":{"browserName":"firefox","browserVersion":"76.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1589576547092	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://igavesti-ou.myshopify.com/"}]
+1589576547098	Marionette	TRACE	[16] Received DOM event beforeunload for about:blank
+1589576547479	Marionette	TRACE	[16] Received DOM event pagehide for about:blank
+1589576548068	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/
+1589576548190	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/
+1589576548192	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1589576548202	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589576548208	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e04fc7ed-73ad-e445-bef4-6fd1b56bc160"}}]
+1589576548219	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementClick",{"id":"e04fc7ed-73ad-e445-bef4-6fd1b56bc160"}]
+1589576548266	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/
+1589576548643	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/
+1589576548644	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/
+1589576548778	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account/login
+1589576548794	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account/login
+1589576548795	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1589576548798	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerEmail\"]"}]
+1589576548801	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"184aec58-8dda-2147-8793-df2daab6db36"}}]
+1589576548805	Marionette	DEBUG	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"184aec58-8dda-2147-8793-df2daab6db36","text":"azadtestlio@gmail.com","value":["a","z","a","d","t","e","s","t","l","i","o","@","g","m","a","i","l",".","c","o","m"]}]
+1589576548837	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1589576548840	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"CustomerPassword\"]"}]
+1589576548842	Marionette	DEBUG	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"269a26c7-2dc6-b34e-bf80-42e2641fe990"}}]
+1589576548844	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"269a26c7-2dc6-b34e-bf80-42e2641fe990","text":"Tester1234","value":["T","e","s","t","e","r","1","2","3","4"]}]
+1589576548868	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1589576548871	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"xpath","value":"//form[@id='customer_login']//input[@class='btn']"}]
+1589576548873	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bb43f66f-3adc-9b4a-b94f-0609fb3bec26"}}]
+1589576548875	Marionette	DEBUG	0 -> [0,10,"WebDriver:ElementClick",{"id":"bb43f66f-3adc-9b4a-b94f-0609fb3bec26"}]
+1589576548882	Marionette	TRACE	[16] Received DOM event beforeunload for https://igavesti-ou.myshopify.com/account/login
+1589576549909	Marionette	TRACE	[16] Received DOM event pagehide for https://igavesti-ou.myshopify.com/account/login
+1589576549909	Marionette	TRACE	[16] Received DOM event unload for https://igavesti-ou.myshopify.com/account/login
+1589576549978	Marionette	TRACE	[16] Received observer notification outer-window-destroyed
+1589576550015	Marionette	TRACE	[16] Received DOM event DOMContentLoaded for https://igavesti-ou.myshopify.com/account
+1589576550026	Marionette	TRACE	[16] Received DOM event pageshow for https://igavesti-ou.myshopify.com/account
+1589576550027	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1589576550030	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":".section-header__title"}]
+1589576550032	Marionette	DEBUG	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c803510c-bc61-9543-8f3a-7618201ec3e1"}}]
+1589576550035	Marionette	DEBUG	0 -> [0,12,"WebDriver:GetElementText",{"id":"c803510c-bc61-9543-8f3a-7618201ec3e1"}]
+1589576550053	Marionette	DEBUG	0 <- [1,12,null,{"value":"My Account"}]
+1589576550059	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"customer_login_link\"]"}]
+1589576550061	Marionette	DEBUG	0 <- [1,13,{"error":"no such element","message":"Unable to locate element: [id=\"customer_login_link\"]","stacktrace":"WebDriverEr ... entError@chrome://marionette/content/error.js:387:5\nelement.find/</<@chrome://marionette/content/element.js:331:16\n"},null]
+1589576550066	Marionette	DEBUG	0 -> [0,14,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589576550067	Marionette	INFO	Stopped listening on port 56396
+1589576550404	Marionette	TRACE	Received observer notification quit-application
+1589576550407	Marionette	DEBUG	0 <- [1,14,null,{"cause":"shutdown"}]
+1589576550451	Marionette	DEBUG	0 -> [0,15,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1589576550452	Marionette	DEBUG	0 <- [1,15,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDrive ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1589576550453	Marionette	DEBUG	Closed connection 0
+1589576552584	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1589576552584	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1589576552584	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1589576552584	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1589576552584	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1589576552585	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1589576552585	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1589576552585	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1589576552585	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1589576552586	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1589576552586	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1589576552586	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1589576552586	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1589576552586	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1589576552586	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1589576552586	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1589576552586	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1589576552586	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1589576552586	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1589576552586	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1589576552586	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1589576552586	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1589576552587	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1589576552587	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1589576552587	Marionette	DEBUG	Marionette stopped listening
